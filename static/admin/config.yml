@@ -3,12 +3,12 @@ backend:
   repo: MilanRajkumar/milanrajkumar.github.io
 
 media_folder: static/assets
-public_folder: /assets
+public_folder: assets
 
 collections: 
   - name: post
     label: Posts
-    folder: src/assets
+    folder: src/pages/posts
     create: true
     fields:
       - { name: title, label: Title }
